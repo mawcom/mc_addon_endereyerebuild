@@ -1,0 +1,43 @@
+{
+    "format_version": "1.21.100",
+    "minecraft:recipe_shapeless": {
+        "descripion": {
+            "identifier": "minecraft:ender_eye"
+        }
+    },
+    "tag": [
+        "crafting_table"
+    ], 
+    "pattern": [" E ",
+                "N,#,C",
+                " S "
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:sponge" 
+        },
+        "N": {
+             "item": "minecraft:heavy_core"
+        },
+        "#": {
+            "item": "minecraft:ender_pearl"
+        },
+        "C": {
+            "item": "minecraft:echo_shard"
+        },
+        "S": {
+            "item": "minecraft:minecraft:nether_star"
+        }
+    },
+    "unlock":  [
+        {
+        "item": "minecraft:ender_pearl"
+        }
+    ], 
+    "result": {
+        "item": "minecraft:ender_eye",
+        "count": 16
+        
+    }
+    
+}

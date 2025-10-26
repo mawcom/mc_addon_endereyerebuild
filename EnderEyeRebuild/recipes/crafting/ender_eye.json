@@ -1,15 +1,14 @@
 {
     "format_version": "1.21.100",
-    "minecraft:recipe_shapeless": {
-        "descripion": {
+    "minecraft:recipe_shaped": {
+        "description": {
             "identifier": "minecraft:ender_eye"
-        }
-    },
-    "tag": [
+        },
+        "tags": [
         "crafting_table"
     ], 
     "pattern": [" E ",
-                "N,#,C",
+                "N#C",
                 " S "
     ],
     "key": {
@@ -26,7 +25,7 @@
             "item": "minecraft:echo_shard"
         },
         "S": {
-            "item": "minecraft:minecraft:nether_star"
+            "item": "minecraft:nether_star"
         }
     },
     "unlock":  [
@@ -38,6 +37,8 @@
         "item": "minecraft:ender_eye",
         "count": 16
         
+    }
+    
     }
     
 }

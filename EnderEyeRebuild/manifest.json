@@ -1,0 +1,21 @@
+{   
+    "format_version": 2,
+    "metadata": {
+        "product_type": "addon",
+        "authors": [ "MawcoM" ]
+    },
+    "header":{
+        "name": "Ender Eye Rebuild",
+        "descripion": "More challenger craft to Ender Eye, for you, that realy want a challenge in minecraftr adventure!!",
+        "min_engine_version" : [1,21,90], 
+        "uuid": "84b63868-3071-4acb-b77a-8fb395fe0d21",
+        "version": [1,0,0]
+    }, 
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "01878be7-1727-4911-a2fa-5002aff60f30",
+            "version": [1,0,0]    
+        }
+    ]
+}
